@@ -6,7 +6,7 @@
 **Note that booting Linux from ChromeOS and vice versa will powerwash target device. Most features should work, EXCEPT speakers. :(**
 
 ### The following should be done on a **seperate** device:
-1) Download `shimboot_dedede.zip` from releases page.
+1) Download `shimboot_dedede.zip` from original repo [here](https://github.com/ading2210/shimboot/releases/download/v1.2.1/shimboot_dedede.zip).
 2) Flash shim image to USB stick with more than 8GB storage. Ideally with [this](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) or `dd` on Linux.
 3) Verify image and remove USB from computer.
 
