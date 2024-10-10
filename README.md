@@ -19,7 +19,7 @@ Almost completely from ading2210/shimboot. Streamlined process to get Linux up a
 6) Run `sudo expand_rootfs`, with given password on above line. This will expand rootfs partition to fill up entire USB disk.
 7) Running `passwd user` will change user password. The root user is disabled by default.
 
-## Customizing image with different  supported distros/desktop:
+## Customizing image with different  supported distros/desktops:
 ### Following should be done prior to flashing USB on non-target device. 
 1) Clone `dedede` from [here](https://chrome100.dev)
 2) Cd into cloned repo
@@ -36,8 +36,8 @@ Almost completely from ading2210/shimboot. Streamlined process to get Linux up a
 
 ## Misc:
 ### Booting into ChromeOS again:
-Reminder that this is a liveboot that dosen't touch internal storage by default. 
-Power off Debian and unplug USB. Then, power on and press **esc+refresh+power** to powerwash and exit recovery into normal mode.
+Reminder that this is a liveboot that doesn't touch internal storage by default. 
+Power off from Linux and unplug USB. Then, power on and press **esc+refresh+power** to powerwash and exit recovery into normal mode.
 To go back to Linux, follow steps on second quickstart section.
 
 ### Rootfs compression:
