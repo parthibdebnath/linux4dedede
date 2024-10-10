@@ -5,7 +5,7 @@ Almost completely from ading2210/shimboot. Streamlined process to get Linux up a
 **On target device, go to `chrome://version` and read platform section. Provided image will only work if the last word in the `Platform:` section is `dedede`**
 **Most features should work, EXCEPT speakers. :(**
 
-### The folowing should be done on a **seperate** device:
+### The following should be done on a **seperate** device:
 1) Download `shimboot_dedede.zip` from releases page.
 2) Flash shim image to USB stick with more than 8GB storage. Ideally with [this](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) or `dd` on Linux.
 3) Verify image and remove USB from computer.
