@@ -1,5 +1,5 @@
 # linux4dedede
-Almost completely from ading2210/shimboot. Streamlined process to get Linux up and running as easily as possible on enrolled dedede boards.
+**Almost completely from [ading2210/shimboot](https://github.com/ading2210/shimboot).** Streamlined process to get Linux up and running as easily as possible on enrolled dedede boards.
 
 ## Quickstart(Default installation: Debian XFCE):
 **On target device, go to `chrome://version` and read platform section. Provided image will only work if the last word in the `Platform:` section is `dedede`**
