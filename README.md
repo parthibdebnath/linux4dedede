@@ -3,7 +3,7 @@ Almost completely from ading2210/shimboot. Streamlined process to get Linux up a
 
 ## Quickstart(Default installation: Debian XFCE):
 **On target device, go to `chrome://version` and read platform section. Provided image will only work if the last word in the `Platform:` section is `dedede`**
-**Most features should work, EXCEPT speakers. :(**
+**Note that booting Linux from ChromeOS and vice versa will powerwash target device. Most features should work, EXCEPT speakers. :(**
 
 ### The following should be done on a **seperate** device:
 1) Download `shimboot_dedede.zip` from releases page.
