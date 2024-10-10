@@ -26,7 +26,7 @@ Almost completely from ading2210/shimboot. Streamlined process to get Linux up a
 3) Run any of the following commands to build image according to needs:
 
    **To change distro:**
-   `sudo ./build_complete.sh dedede release=unstable` (Debian Rolling Release)   
+   `sudo ./build_complete.sh dedede release=unstable` (Debian Rolling Release)   \
    `sudo ./build_complete.sh dedede distro=alpine` (Experimental Alpine Linux)
 
    **To change desktop environment:**
