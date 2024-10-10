@@ -54,4 +54,4 @@ Run the following in terminal:  \
 `activate`  
 
 ## General Disclaimer
-You are using these methods and/or softwares at your own risk. Doing stupid things can and will brick your device. Only you are responsible for any damage, irreversable changes, or improvements made to your device. :)
+You are using these methods and/or softwares at your own risk. Doing stupid things can and will brick your device. Only you are responsible for any damage, irreversible changes, or improvements made to your device. :)
