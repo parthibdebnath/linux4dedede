@@ -3,10 +3,10 @@
 
 ## Table of Contents:
   * [Quickstart(Default installation: Debian XFCE):](#quickstart-default-installation--debian-xfce--)
-    + [The following should be done on a **seperate** device:](#the-following-should-be-done-on-a---seperate---device-)
-    + [The following should be done on the **target** device:](#the-following-should-be-done-on-the---target---device-)
+    + [Preparing the image:](#the-following-should-be-done-on-a---seperate---device-)
+    + [Booting the image:](#the-following-should-be-done-on-the---target---device-)
   * [Customizing image with different  supported distros/desktops:](#customizing-image-with-different--supported-distros-desktops-)
-    + [Following should be done prior to flashing USB on non-target device.](#following-should-be-done-prior-to-flashing-usb-on-non-target-device)
+    + [Image Customizations](#following-should-be-done-prior-to-flashing-usb-on-non-target-device)
   * [Misc:](#misc-)
     + [Booting into ChromeOS again:](#booting-into-chromeos-again-)
     + [Rootfs compression:](#rootfs-compression-)
