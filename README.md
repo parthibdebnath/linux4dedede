@@ -26,32 +26,32 @@ Almost completely from ading2210/shimboot. Streamlined process to get Linux up a
 3) Run any of the following commands to build image according to needs:
 
    **To change distro:**
-   `sudo ./build_complete.sh dedede release=unstable` (Debian Rolling Release)
+   `sudo ./build_complete.sh dedede release=unstable` (Debian Rolling Release)   
    `sudo ./build_complete.sh dedede distro=alpine` (Experimental Alpine Linux)
 
    **To change desktop environment:**
    `sudo ./build_complete.sh grunt desktop=lxde` (`lxde` can be replaced with any one of the following: `gnome`,`xfce`,`kde`,`gnome-flashback`,`cinnamon`,`mate`, or `lxqt`)
 
-4) Continue from step 2) on first quickstart section. The image you just built should be the one you end up flashing.
+5) Continue from step 2) on first quickstart section. The image you just built should be the one you end up flashing.
 
 ## Misc:
-###Booting into ChromeOS again:
+### Booting into ChromeOS again:
 Reminder that this is a liveboot that dosen't touch internal storage by default. 
 Power off Debian and unplug USB. Then, power on and press **esc+refresh+power** to powerwash and exit recovery into normal mode.
 To go back to Linux, follow steps on second quickstart section.
 
 ### Rootfs compression:
 Run the following in terminal:
-`sudo ./build_rootfs.sh data/rootfs bookworm
-sudo ./build_squashfs.sh data/rootfs_compressed data/rootfs path_to_shim
-sudo ./build.sh image.bin path_to_shim data/rootfs_compressed`
+`sudo ./build_rootfs.sh data/rootfs bookworm`
+`sudo ./build_squashfs.sh data/rootfs_compressed data/rootfs path_to_shim`
+`sudo ./build.sh image.bin path_to_shim data/rootfs_compressed`
 
 ### Wifi Troubleshooting
 Run the following in terminal:
-`nmcli connection edit <your connection name>
-set 802-11-wireless-security.pmf disable
-save
-activate`
+`nmcli connection edit <your connection name>`
+`set 802-11-wireless-security.pmf disable`
+`save`
+`activate`
 
 ## General Disclaimer
 You are using these methods and/or softwares at your own risk. Doing stupid things can and will brick your device. Only you are responsible for any damage, irreversable changes, or improvements made to your device. :)
