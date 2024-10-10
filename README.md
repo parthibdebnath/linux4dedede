@@ -41,17 +41,17 @@ Power off Debian and unplug USB. Then, power on and press **esc+refresh+power** 
 To go back to Linux, follow steps on second quickstart section.
 
 ### Rootfs compression:
-Run the following in terminal:
+Run the following in terminal:  \
 `sudo ./build_rootfs.sh data/rootfs bookworm`  \
 `sudo ./build_squashfs.sh data/rootfs_compressed data/rootfs path_to_shim`  \
 `sudo ./build.sh image.bin path_to_shim data/rootfs_compressed`
 
 ### Wifi Troubleshooting
-Run the following in terminal:
+Run the following in terminal:  \
 `nmcli connection edit <your connection name>`  \
 `set 802-11-wireless-security.pmf disable`  \
 `save`  \
-`activate`  \
+`activate`  
 
 ## General Disclaimer
 You are using these methods and/or softwares at your own risk. Doing stupid things can and will brick your device. Only you are responsible for any damage, irreversable changes, or improvements made to your device. :)
