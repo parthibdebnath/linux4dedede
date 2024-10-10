@@ -1,17 +1,6 @@
 # linux4dedede
 **Almost completely from [ading2210/shimboot](https://github.com/ading2210/shimboot).** Streamlined process to get Linux up and running as easily as possible on enrolled dedede boards.
 
-## Table of Contents:
-  * [Quickstart(Default installation: Debian XFCE):](#quickstart-default-installation-debian-xfce)
-    + [Preparing the image:](#the-following-should-be-done-on-a-seperate-device)
-    + [Booting the image:](#the-following-should-be-done-on-the-target-device)
-  * [Customizing image with different  supported distros/desktops:](#customizing-image-with-different-supported-distros-desktops)
-    + [Image Customizations](#following-should-be-done-prior-to-flashing-usb-on-non-target-device)
-  * [Misc:](#misc-)
-    + [Booting into ChromeOS again:](#booting-into-chromeos-again)
-    + [Rootfs compression:](#rootfs-compression)
-    + [Wifi Troubleshooting](#wifi-troubleshooting)
-  * [General Disclaimer](#general-disclaimer)
 
 ## Quickstart(Default installation: Debian XFCE):
 **On target device, go to `chrome://version` and read platform section. Provided image will only work if the last word in the `Platform:` section is `dedede`**
