@@ -44,11 +44,11 @@ To go back to Linux, follow steps on second quickstart section.
 ### Bluetooth:
 To get bluetooth up and running install the following from terminal:   \
 `sudo apt-get install bluetooth blueman`   \
-You can use bluetooth audio output for sound as speakers aren't current supported.
+You can use bluetooth audio output for sound as speakers aren't currently supported.
 
 ### Smartphone Audio:
 Another way to get audio despite unsupported speakers is by using your smartphone as a speaker via Wi-Fi.   \
-Download [audiorelay](https://audiorelay.net) .deb file on target device and the app on your phone.    \   
+Download [audiorelay](https://audiorelay.net)  .deb file on target device and the app on your phone.    \   
 To install the .deb file, right click on your downloads folder and select open Terminal here. Then, type in:   \
 `sudo dpkg -i <package_name>`    \
 *You may need the libflac8 dependency from [here.](http://ftp.de.debian.org/debian/pool/main/f/flac/libflac8_1.3.3-2+deb11u2_amd64.deb)   \
