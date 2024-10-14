@@ -38,7 +38,8 @@
 ## Misc:
 ### Booting into ChromeOS again:
 Reminder that this is a liveboot that doesn't touch internal storage by default. 
-Power off from Linux and unplug USB. Then, power on and press **esc+refresh+power** to powerwash and exit recovery into normal mode.
+Power off from Linux and unplug USB. Then, power on and press **enter** on the confirm return to secure mode screen. 
+If you end up on recovery now, press **esc+refresh+power** and your device should work as normal on ChromeOS
 To go back to Linux, follow steps on second quickstart section.
 
 ### Bluetooth:
