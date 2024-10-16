@@ -31,8 +31,9 @@
    `sudo ./build_complete.sh dedede distro=alpine` (Experimental Alpine Linux)
 
    **To change desktop environment:**
-   `sudo ./build_complete.sh grunt desktop=lxde`  \(`lxde` can be replaced with any one of the following: `gnome`,`xfce`,`kde`,`gnome-flashback`,`cinnamon`,`mate`, or `lxqt`)
-
+   `sudo ./build_complete.sh grunt desktop=xfce`  \(`xfce` can be replaced with any one of the following: `gnome`,`lxde`,`kde`,`gnome-flashback`,`cinnamon`,`mate`, or `lxqt`)
+   Alternatively, you can continue with the default xfce and change desktop environment while booted into the image.
+   
 5) Continue from step 2) on first quickstart section. The image you just built should be the one you end up flashing.
 
 ## Misc:
