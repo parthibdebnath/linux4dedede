@@ -4,9 +4,10 @@
 
 ## Quickstart(Default installation: Debian XFCE):
 **On target device, go to `chrome://version` and read platform section. Provided image will only work if the last word in the `Platform:` section is `dedede`**
+**If you have a diferent word in the platform section, download your respective zip file from [here](https://github.com/ading2210/shimboot/releases) rather than the dedede.zip**
 **Note that booting Linux from ChromeOS and vice versa will powerwash target device. Most features should work, EXCEPT speakers. :(**
 
-### The following should be done on a **seperate** device:
+### The following should be done on a **seperate** device such a different Windows computer:
 1) Download `shimboot_dedede.zip` from original repo [here](https://github.com/ading2210/shimboot/releases/download/v1.2.1/shimboot_dedede.zip).
 2) Flash shim image to USB stick with more than 8GB storage. Ideally with [this](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) or `dd` on Linux.
 3) Verify image and remove USB from computer.
@@ -17,8 +18,9 @@
 3) Press **esc+refresh+power** again. Device will go into recovery mode with developer mode temporarily enabled.
 4) Plug in flashed USB drive, and wait for Debian to boot.
 5) Login with `user`/`user`. You can change this later.
-6) Run `sudo expand_rootfs`, with given password on above line. This will expand rootfs partition to fill up entire USB disk.
-7) Running `passwd user` will change user password. The root user is disabled by default.
+6) Open "Terminal" or "terminal emulator" app
+7) Type and enter `sudo expand_rootfs`, then the given password on above line. This will expand rootfs partition to fill up entire USB disk.
+8) Running `passwd user` will change user password to whatever you choose. The root user is disabled by default.
 
 ## Customizing image with different  supported distros/desktops:
 ### Following should be done prior to flashing USB on non-target device. 
