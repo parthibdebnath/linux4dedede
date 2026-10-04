@@ -1,5 +1,6 @@
 # linux4dedede
 **Almost completely from [ading2210/shimboot](https://github.com/ading2210/shimboot).** Streamlined process to get Linux up and running as easily as possible on enrolled dedede boards.
+<img width="1366" height="768" alt="screenshot" src="https://github.com/user-attachments/assets/22f19b51-620f-4df9-a9ed-2c142cb8edb5" />
 
 
 ## Quickstart(Default installation: Debian XFCE):
